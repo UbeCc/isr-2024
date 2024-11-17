@@ -1,0 +1,52 @@
+{
+  "os":  "Linux-6.8.0-48-generic-x86_64-with-glibc2.17",
+  "python":  "3.8.20",
+  "startedAt":  "2024-11-02T16:49:24.929401Z",
+  "args":  [
+    "--headless",
+    "--use_wandb",
+    "--task",
+    "humanoid_rma",
+    "--run_name=rma-teacher"
+  ],
+  "program":  "scripts/train.py",
+  "codePath":  "scripts/train.py",
+  "email":  "364504829@qq.com",
+  "root":  "/home/ubec/humanoid-gym/humanoid",
+  "host":  "sast-gpu-test",
+  "username":  "ubec",
+  "executable":  "/home/ubec/miniconda3/envs/isr/bin/python",
+  "codePathLocal":  "scripts/train.py",
+  "cpu_count":  20,
+  "cpu_count_logical":  40,
+  "gpu":  "NVIDIA GeForce RTX 2080",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "3935761907712",
+      "used":  "63204274176"
+    }
+  },
+  "memory":  {
+    "total":  "67384737792"
+  },
+  "cpu":  {
+    "count":  20,
+    "countLogical":  40
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 2080",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  2944,
+      "architecture":  "Turing"
+    },
+    {
+      "name":  "NVIDIA GeForce GTX 1660",
+      "memoryTotal":  "6442450944",
+      "cudaCores":  1408,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

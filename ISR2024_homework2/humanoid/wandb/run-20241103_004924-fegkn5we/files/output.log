@@ -1,0 +1,35 @@
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/ubec/humanoid-gym/logs/XBot_rma/2024-11-03_00-49-22_rma-teacher
+Traceback (most recent call last):
+  File "scripts/train.py", line 45, in <module>
+    train(args)
+  File "scripts/train.py", line 41, in train
+    ppo_runner.learn(num_learning_iterations=train_cfg.runner.max_iterations, init_at_random_ep_len=True)
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/rma_runner.py", line 106, in learn
+    actions = self.alg.act(obs, critic_obs, rma_obs)
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/rma.py", line 37, in act
+    self.transition.actions = self.actor_critic.act(obs, rma_obs).detach()
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/actor_critic_encoder.py", line 53, in act
+    self.update_distribution(observations, rma_obs)
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/actor_critic_encoder.py", line 49, in update_distribution
+    mean = self.actor(observations, rma_obs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/actor_encoder.py", line 59, in forward
+    emb = self.encode(rma_obs)
+  File "/home/ubec/humanoid-gym/humanoid/algo/rma/actor_encoder.py", line 67, in encode
+    est_latent = self.encoder(rma_obs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubec/miniconda3/envs/isr/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1000x51 and 765x256)

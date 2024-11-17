@@ -1,0 +1,22 @@
+{"time":"2024-11-02T22:42:35.427338809+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-02T22:42:35.427378023+08:00","level":"INFO","msg":"created symlink","path":"/home/ubec/humanoid-gym/humanoid/wandb/run-20241102_224235-1k92mtu7/logs/debug-core.log"}
+{"time":"2024-11-02T22:42:35.542942934+08:00","level":"INFO","msg":"created new stream","id":"1k92mtu7"}
+{"time":"2024-11-02T22:42:35.543015524+08:00","level":"INFO","msg":"stream: started","id":"1k92mtu7"}
+{"time":"2024-11-02T22:42:35.543106239+08:00","level":"INFO","msg":"sender: started","stream_id":"1k92mtu7"}
+{"time":"2024-11-02T22:42:35.54307656+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1k92mtu7"}}
+{"time":"2024-11-02T22:42:35.543066133+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1k92mtu7"}}
+{"time":"2024-11-02T22:42:36.074690111+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-02T22:42:36.075218116+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-11-02T22:42:46.242127392+08:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2024-11-02T22:42:46.242725642+08:00","level":"ERROR","msg":"tensorboard: file is not under TB root","rootDir":"/home/ubec/humanoid-gym/humanoid","path":"/home/ubec/humanoid-gym/logs/XBot_ppo/2024-11-02_22-42-13_baseline/events.out.tfevents.1730558556.sast-gpu-test.24330.0"}
+{"time":"2024-11-02T23:27:07.862543219+08:00","level":"INFO","msg":"stream: closing","id":"1k92mtu7"}
+{"time":"2024-11-02T23:27:07.862597518+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-02T23:27:07.863565545+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-02T23:27:08.133112073+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-02T23:27:08.133149883+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-02T23:27:08.133160982+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-02T23:27:09.64133278+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-02T23:27:10.061559136+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"1k92mtu7"}}
+{"time":"2024-11-02T23:27:10.061647119+08:00","level":"INFO","msg":"sender: closed","stream_id":"1k92mtu7"}
+{"time":"2024-11-02T23:27:10.061621472+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1k92mtu7"}}
+{"time":"2024-11-02T23:27:10.061808135+08:00","level":"INFO","msg":"stream: closed","id":"1k92mtu7"}
